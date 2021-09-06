@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ServiceStack.Text" Version="5.10.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Employee.Factory\Employee.Factory.csproj" />
+    <ProjectReference Include="..\Employee.Library\Employee.Interface.csproj" />
+    <ProjectReference Include="..\EmployeeProfile.Repository\EmployeeProfile.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
